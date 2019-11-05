@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drum kit</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <audio id="boom" src="sounds/boom.wav" ></audio>
+    <audio id="clap" src="./sounds/clap.wav" ></audio>
+    <audio id="hihat" src="./sounds/hihat.wav" ></audio>
+    <audio id="kick" src="./sounds/kick.wav" ></audio>
+    <audio id="openhat" src="./sounds/openhat.wav" ></audio>
+    <audio id="ride" src="./sounds/ride.wav" ></audio>
+    <audio id="snare" src="./sounds/snare.wav" ></audio>
+    <audio id="tink" src="./sounds/tink.wav" ></audio>
+    <audio id="tom" src="./sounds/tom.wav" ></audio>
+
+    <div id="main">
+            <div class="row">
+                    <div data-key="81" class="box"><span>Q</span></div>
+                    <div data-key="87" class="box"><span>W</span></div>
+                    <div data-key="69" class="box"><span>E</span></div>
+            </div>
+            <div class="row">
+                    <div data-key="65" class="box"><span>A</span></div>
+                    <div data-key="83" class="box"><span>S</span></div>
+                    <div data-key="68" class="box"><span>D</span></spa></div>
+            </div>
+            <div class="row">
+                    <div data-key="90" class="box"><span>Z</span></div>
+                    <div data-key="88" class="box"><span>X</span></div>
+                    <div data-key="67" class="box"><span>C</span></div>
+            </div>
+    
+
+
+
+    <div id="btns1">
+        <button id="channel1Rec" class="btn">Record Channel 1</button>
+        <button id="channel2Rec" class="btn">Record Channel 2</button>
+        <button id="channel3Rec" class="btn">Record Channel 3</button>
+        <button id="channel4Rec" class="btn">Record Channel 4</button>
+    </div>
+
+    <div id="btns2">
+    <button id="channel1Play" class="btn">Play Channel 1</button>
+    <button id="channel2Play" class="btn">Play Channel 2</button>
+    <button id="channel3Play" class="btn">Play Channel 3</button>
+    <button id="channel4Play" class="btn">Play Channel 4</button>
+    <button id="channel5Play" class="btn">Play them All</button>
+    </div>
+
+    <script src="drumkit.js"></script>
+</body>
+</html>
